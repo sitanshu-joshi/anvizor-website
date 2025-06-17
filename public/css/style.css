@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #fff;
     color: #333;
+    line-height: 1.6;
 }
 
 .navbar {
@@ -189,6 +190,11 @@ body {
     font-size: 1.1rem;
 }
 
+p {
+    max-width: 70ch;
+    margin-bottom: 1em;
+}
+
 .section {
     max-width: 1000px;
     margin: 40px auto;
@@ -197,6 +203,7 @@ body {
 
 .section h2 {
     color: #28a745;
+    margin-bottom: 0.6em;
 }
 
 .section ul {
