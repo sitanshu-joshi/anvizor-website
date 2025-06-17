@@ -56,8 +56,54 @@
         </nav>
     </header>
     <main>
-        <h1>Contact Us</h1>
-        <p>Placeholder content for Contact Us.</p>
+        <h1>Let's Build Something Great Together</h1>
+        <p>Get in touch with us for project discussions, brainstorming ideas, or to request a personalized quote.</p>
+
+        <form class="contact-form">
+            <div class="contact-section">
+                <h2>1. Tell Us About Your Company</h2>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Let us know who you are." required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="So we can reach back to you." required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Optional, but helpful for quicker responses.">
+
+                <label for="company">Company Name / Website</label>
+                <input type="text" id="company" name="company" placeholder="Tell us a bit about your business.">
+            </div>
+
+            <div class="contact-section">
+                <h2>2. Tell Us More About the Project</h2>
+                <label for="brief">Project Brief</label>
+                <textarea id="brief" name="brief" rows="4" placeholder="What's the idea or challenge you want to work on?"></textarea>
+
+                <label for="budget">Estimated Budget</label>
+                <select id="budget" name="budget">
+                    <option value="">--Select a range--</option>
+                    <option>$20,000 – $50,000</option>
+                    <option>$50,000 – $100,000</option>
+                    <option>$100,000 – $250,000</option>
+                    <option>$250,000+</option>
+                </select>
+
+                <label for="materials">Upload Materials (if any)</label>
+                <input type="file" id="materials" name="materials" multiple>
+                <small>Share any reference documents, designs, or specs.</small>
+            </div>
+
+            <div class="contact-section">
+                <h2>3. Schedule a Call with Our Tech Expert</h2>
+                <label for="slot">Book a 30-Minute Slot</label>
+                <input type="datetime-local" id="slot" name="slot">
+                <p class="note">Pick a time that works for you and speak directly with our solution architect or tech strategist.</p>
+            </div>
+
+            <button type="submit">Submit Your Request</button>
+            <p class="response-time">We'll review your request and respond within 24 business hours.</p>
+        </form>
     </main>
     <script src="/js/app.js"></script>
 </body>
