@@ -21,3 +21,7 @@ The project is a static site that can be served directly from the `public/` dire
 ## Deployment
 
 The site is completely static so deployment simply involves copying the contents of `public/` to your preferred hosting provider. You can use any static host such as GitHub Pages or an S3 bucket. After uploading the directory, the site will be available from your hosting URL.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
