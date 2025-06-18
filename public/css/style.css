@@ -1,6 +1,5 @@
 /* Modern corporate theme */
 :root {
-    --primary-color: #002d62;
     --accent-color: #0097a7;
     --text-color: #333;
     --bg-color: #ffffff;
@@ -17,7 +16,7 @@ body {
 }
 
 .navbar {
-    background-color: var(--primary-color);
+    background-color: #0d47a1;
     border-bottom: 2px solid var(--accent-color);
     color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -178,7 +177,7 @@ body {
 }
 
 .contact-form button:hover {
-    background-color: var(--primary-color);
+    background-color: #0d47a1;
 }
 
 .response-time {
@@ -187,7 +186,7 @@ body {
 
 /* Footer styles */
 .site-footer {
-    background-color: var(--primary-color);
+    background-color: #0d47a1;
     color: #fff;
     padding: 40px 20px;
     font-size: 0.9rem;
@@ -234,7 +233,7 @@ body {
 /* Home page styles */
 
 .hero {
-    background: linear-gradient(120deg, var(--primary-color), var(--accent-color));
+    background: linear-gradient(120deg, #0d47a1, var(--accent-color));
     text-align: center;
     padding: 80px 20px;
     color: #fff;
@@ -286,7 +285,7 @@ p {
 
 .cta-links a:hover {
     text-decoration: underline;
-    color: var(--primary-color);
+    color: #0d47a1;
 }
 
 /* Responsive navigation */
