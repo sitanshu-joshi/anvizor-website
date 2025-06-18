@@ -67,17 +67,26 @@
         <form class="contact-form">
             <div class="contact-section">
                 <h2>1. Tell Us About Your Company</h2>
-                <label for="name">Your Name</label>
-                <input type="text" id="name" name="name" placeholder="Let us know who you are." required>
-
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" placeholder="So we can reach back to you." required>
-
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone" placeholder="Optional, but helpful for quicker responses.">
-
-                <label for="company">Company Name / Website</label>
-                <input type="text" id="company" name="company" placeholder="Tell us a bit about your business.">
+                <div class="form-row">
+                    <div class="input-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Let us know who you are." required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="So we can reach back to you." required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Optional, but helpful for quicker responses.">
+                    </div>
+                    <div class="input-group">
+                        <label for="company">Company Name / Website</label>
+                        <input type="text" id="company" name="company" placeholder="Tell us a bit about your business.">
+                    </div>
+                </div>
             </div>
 
             <div class="contact-section">
@@ -95,7 +104,10 @@
                 </select>
 
                 <label for="materials">Upload Materials (if any)</label>
-                <input type="file" id="materials" name="materials" multiple>
+                <div class="file-drop-area">
+                    <span>Drag &amp; Drop files here or click to upload</span>
+                    <input type="file" id="materials" name="materials" multiple>
+                </div>
                 <small>Share any reference documents, designs, or specs.</small>
             </div>
 
