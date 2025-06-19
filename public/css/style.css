@@ -386,3 +386,33 @@ p {
         cursor: pointer;
     }
 }
+
+/* Reusable two-column layout */
+.two-column {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.two-column > img {
+    flex: 1 1 40%;
+    max-width: 45%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.two-column > div {
+    flex: 1 1 55%;
+}
+
+@media (max-width: 768px) {
+    .two-column {
+        flex-direction: column;
+    }
+    .two-column > img,
+    .two-column > div {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+}
