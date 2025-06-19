@@ -200,7 +200,7 @@ h6 { font-size: 0.875rem; }
 
 /* Footer styles */
 .site-footer {
-    background-color: #1b5e20;
+    background-color: #213438;
     color: #fff;
     padding: 40px 20px;
     font-size: 0.9rem;
@@ -230,16 +230,25 @@ h6 { font-size: 0.875rem; }
 .footer-section h4 {
     margin-top: 0;
     color: #fff;
-}
-
-.footer-section h4 {
-    color: var(--accent-color);
+    font-weight: bold;
 }
 
 /* Footer logo size */
 .footer-logo-img {
     width: 120px;
     height: auto;
+}
+
+/* Social link styles */
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-links a {
+    color: #fff;
 }
 
 /* Footer policy links layout */
