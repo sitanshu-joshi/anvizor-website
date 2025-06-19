@@ -265,6 +265,8 @@ h6 { font-size: 0.875rem; }
 
 .hero {
     background: linear-gradient(120deg, #1b5e20, var(--accent-color));
+    background-size: cover;
+    background-position: center;
     text-align: center;
     padding: 80px 20px;
     color: #fff;
