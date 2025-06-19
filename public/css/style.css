@@ -348,6 +348,23 @@ p {
     border-radius: 6px;
 }
 
+/* Generic two-column layout used across AI pages */
+.two-column {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.two-column > * {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .two-column {
+        flex-direction: column;
+    }
+}
+
 .cta-links a {
     color: var(--accent-color);
     text-decoration: none;
